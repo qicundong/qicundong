@@ -1,0 +1,288 @@
+table.wpw-auto-poster-stat-table{
+	width:70%;
+}
+
+table.wpw-auto-poster-stat-table tr td{
+	 width: 35%;
+}
+
+.red-color {
+    color: #dd1919 !important;
+}
+
+.wpw-auto-poster-tweet-edit-template {
+	display:none;
+}
+
+.wpw-auto-poster-tweet-edit-template input[type="button"] {
+	margin:5px 10px 0px 0px !important;
+}
+
+
+.meta-box-sortables input {
+    vertical-align: sub;
+}
+
+#_wpweb_tw_image\[src\], 
+#_wpweb_yt_post_image\[src\], 
+#_wpweb_pin_post_image\[src\], 
+#_wpweb_gmb_post_image\[src\], 
+#_wpweb_li_post_image\[src\], 
+#_wpweb_wp_post_image\[src\] 
+{
+    width: calc(100% - 118PX);
+    margin-right: 10px;
+}
+
+.color-c83737{
+    color:#c83737;
+}
+
+
+.form-table th {
+
+}
+
+.wpw-auto-poster-tweet-template-loader{
+	display:none;
+}
+.wpw-auto-poster-tweet-template span:hover{
+	background-color:#FFFFE0;
+}
+.wpw-auto-poster-tweet-mode {
+	float:left;
+	color: #2683AE;
+    font-weight: bold;
+    margin-right:5px;
+    width: 10%;
+    cursor: default;
+}
+.wpw-auto-poster-reset-tweet-template{
+	 outline: medium none !important;
+}
+.wpw-auto-poster-tweet-preview{
+	width:93%;
+	max-width:95%;
+	display: inline-block;
+}
+.tweet-mode-full-width{
+	width:100% !important;
+}
+.tweet-template-warning-message {
+    background: #f9cdcd;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    color: #4b4b4b;
+    border: 1px solid #f27d7d;
+    margin-top: 5px;
+}
+.wpw-auto-poster-tweet-preview-count{
+ 	color: #2683AE;
+    font-size: 18px;
+    float:right;
+}
+.tweet-mode-loader {
+	padding: 3px 10px !important;
+}
+
+.wpw-auto-poster-error {
+    border: 1px solid #DFDFDF;
+    background: #F5F5F5;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    padding: 8px 20px 8px 40px !important;
+    margin-top: 20px;
+    color: #111111;
+    border-radius: 4px;
+    width: 100% !important;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wpw-auto-poster-error:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../images/info-icon.svg) no-repeat;
+    width: 24px;
+    height: 25px;
+    margin-right: 5px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*
+
+
+.wpw-auto-poster-tweet-template {
+    padding: 5px;
+    border: 1px solid #F5F5F5;
+    border: 1px solid #CBD5E1;
+    background: #F8FAFC;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #1D2327;
+    padding: 13px 20px;
+    border-radius: 4px !important;
+    font-size: 16px;
+}
+
+.wpw-auto-poster-tweet-template span {
+    padding:5px;
+    display:block;
+}
+
+.wpw-auto-poster-metabox-wrapper .wpw-auto-poster-rstatus{
+	margin: 0px 8px;
+	vertical-align: middle;
+}
+.wpw-auto-poster-loader{
+	float: none !important;
+}
+.wpw-auto-poster-metabox-wrapper .wpw-auto-poster-show{
+	display: inline-block;
+}
+.wpw-auto-poster-fade-error {
+    background: none repeat scroll 0 0 #0073AA;
+    border-radius: 10px;
+    top: 50%;
+    color: #fff;
+    left: 45%;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    z-index: 100;
+}
+
+
+
+.wpw-auto-poster-metabox-tabs-div input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+label {
+    position: relative;
+    cursor: pointer;
+}
+
+.wpw-auto-poster-metabox-tabs-div input[type="checkbox"]+label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;    
+    padding: 12px;
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    cursor: pointer;
+    left: 0;
+    border: 1px solid #D0D5DD;
+    top: -2px;
+    border-radius: 6px;
+}
+
+
+.wpw-auto-poster-metabox-tabs-div input[type=checkbox]:checked + label::before {
+    background-color: #2271B1;
+    border: 0px;
+}
+
+.wpw-auto-poster-metabox-tabs-div input[type=checkbox]:checked + label::after {
+    border-color: #fff;
+}
+
+.wpw-auto-poster-metabox-tabs-div input[type="checkbox"]:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 4px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.wpw-auto-poster-metabox-tabs-div input[type="checkbox"]+label {
+    padding-left: 38px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+ 
+.wpw-auto-poster-error p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+.wpw-auto-poster-metabox-tabs-div input, .wpw-auto-poster-metabox-tabs-div textarea {
+    border: 1px solid #CBD5E1;
+    background: #F8FAFC; 
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #1D2327;
+    padding: 13px 20px;
+    min-height: 45px;
+    border-radius: 4px !important;
+    font-size: 16px;
+}
+
+.wpw-auto-poster-metabox-tabs-div .chosen-container-single .chosen-single {
+    border: 1px solid #CBD5E1 !important;
+    background: #F8FAFC !important;
+    border-radius: 6px !important;
+    height: 50px !important;
+    display: flex !important;
+    align-items: center;
+    padding: 0 20px !important;
+    box-shadow: none;
+}
+
+.wpw-auto-poster-metabox-tabs-div .chosen-container, ..wpw-auto-poster-metabox-tabs-div .chosen-container-single .chosen-single {
+    min-width: 220px !important;
+}
+
+
+.wpw-auto-poster-metabox-tabs-div .chosen-container-single .chosen-single span {
+    color: #111111;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wpw-auto-poster-metabox-tabs-div .chosen-container-single .chosen-single div b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/arrowsdown.svg') no-repeat;
+    background-position: center;
+}
+
+.wpw-auto-poster-metabox-tabs-div .chosen-container-single .chosen-single div {
+    margin-right: 15px;
+}
+
+.wpw-auto-poster-metabox-tabs-div .gallery-add.button {
+    background-image: url(../../images/plus-icon.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 16px !important;
+    background-position: 19px 15px !important;
+    font-size: 18px !important;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    padding: 10px 19px 10px 50px !important;
+    background: transparent;
+}*/

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "noweh/twitter-api-v2-php": "^3.6",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
